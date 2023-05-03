@@ -197,6 +197,19 @@ p{
 
 }
 
+.blackbox{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  box-sizing: border-box;
+  padding: 1%;
+  border: black 4px solid;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  position: relative;
+
+}
+
 .topimg{
   position: absolute;
   bottom: 0;

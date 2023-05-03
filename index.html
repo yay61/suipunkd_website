@@ -51,6 +51,40 @@
             </div>
         </a>
 
+        <p id="count"></p>
+        <span style="color: #ffffff; font-size: 80%; margin: 0 0 1% 0;"> to the mainnet launch </span>
+
+        <script>
+            // Set the date we're counting down to
+            var countDownDate = new Date("May 7, 2023 06:00:00").getTime();
+
+            // Update the count down every 1 second
+            var x = setInterval(function () {
+
+                // Get today's date and time
+                var now = new Date().getTime();
+
+                // Find the distance between now and the count down date
+                var distance = countDownDate - now;
+
+                // Time calculations for days, hours, minutes and seconds
+                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                // Display the result in the element with id="demo"
+                document.getElementById("count").innerHTML = days + "d " + hours + "h "
+                    + minutes + "m " + seconds + "s ";
+
+                // If the count down is finished, write some text
+                if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("demo").innerHTML = "EXPIRED";
+                }
+            }, 1000);
+        </script>
+
 
         <div class="subheader">
 
@@ -59,34 +93,38 @@
                 <a href="https://sui.io/" target="_blank" style="color: rgba(0, 4, 56, 0.8);">
                     Sui Blockchain
             </h1>
-                </a>
+            </a>
 
 
             <img src="/images/6.png" alt="punk" class="topimg">
+
 
             <div class="pdiv">
 
                 <p>
                     3993 SuiPunks PFPs that prove you’re the Early Member of Sui💧First on Sui Ecosystem! <br> <br>
-    We are the Early members of Sui with 50k+ Twitter and 23k+ Discord Members. <br><br>
-    SuiPunks NFTs is the first collection on Sui which has been developing from August, 2022💧 <br><br>
-    
-    The Memorial Testnet NFT of SuiPunks was minted 150k+ in 1 weeks. <br><br>
-    Besides, SuiPunks team conducted many events to engage SuiPunks community with Sui on Testnet such as testnet IDO, OAT, memorial NFT minting on Testnet Wave2, devnet NFT minting, BlueMove launchpad minting on Testnet Wave1. <br><br>
-    
-    It is a collection that gives privileges to its holders with strong partners in the Sui ecosystem and strong roadmap.
+                    We are the Early members of Sui with 50k+ Twitter and 23k+ Discord Members. <br><br>
+                    SuiPunks NFTs is the first collection on Sui which has been developing from August, 2022💧 <br><br>
+
+                    The Memorial Testnet NFT of SuiPunks was minted 150k+ in 1 weeks. <br><br>
+                    Besides, SuiPunks team conducted many events to engage SuiPunks community with Sui on Testnet such
+                    as testnet IDO, OAT, memorial NFT minting on Testnet Wave2, devnet NFT minting, BlueMove launchpad
+                    minting on Testnet Wave1. <br><br>
+
+                    It is a collection that gives privileges to its holders with strong partners in the Sui ecosystem
+                    and strong roadmap.
                 </p>
             </div>
 
-            
-    
+
+
 
 
         </div>
 
 
-        
-        
+
+
 
         <div class="oats">
 
@@ -100,48 +138,48 @@
             <a href="https://twitter.com/theSuiPunks/status/1647255163286048769?s=20" target="_blank">
                 <img src="/images/2.png" alt="2">
             </a>
-            
+
 
             <a href="https://twitter.com/theSuiPunks/status/1648341786601857024?s=20" target="_blank">
                 <img src="/images/3.png" alt="3">
             </a>
-            
+
 
             <a href="https://twitter.com/theSuiPunks/status/1649432227124592647?s=20" target="_blank">
                 <img src="/images/OAT44.png" alt="4">
             </a>
 
-        
+
             <a href="https://twitter.com/theSuiPunks/status/1653417835043995649?s=20" target="_blank">
                 <img src="/images/FINALOATF.png" alt="4">
             </a>
-            
+
 
         </div>
 
 
         <div class="mpage">
 
-            
+
 
             <div class="roadmap">
 
                 <h2>ROADMAP</h2>
 
-            <p> 23 Q2 - LAUNCH ON SUI</p>
-            <p> 23 Q3 - $SPUNK RELEASE</p>
-            <p> 23 Q3 - STAKE NFT - EARN $SPUNK</p>
-            <p> 23 Q3 - REWARDING OAT HOLDERS</p>
-            <p> 23 Q3 - WL-NFT MARKET</p>
-            <p> 23 Q4 - MINI-GAME CHARACTERS NFT COLLECTION <br> WHICH WILL BE MINTED WITH $SPUNK</p>
-            <p> 24 Q1 - RELEASING MINI-GAME</p>
-            
+                <p> 23 Q2 - LAUNCH ON SUI</p>
+                <p> 23 Q3 - $SPUNK RELEASE</p>
+                <p> 23 Q3 - STAKE NFT - EARN $SPUNK</p>
+                <p> 23 Q3 - REWARDING OAT HOLDERS</p>
+                <p> 23 Q3 - WL-NFT MARKET</p>
+                <p> 23 Q4 - MINI-GAME CHARACTERS NFT COLLECTION <br> WHICH WILL BE MINTED WITH $SPUNK</p>
+                <p> 24 Q1 - RELEASING MINI-GAME</p>
+
 
 
 
             </div>
 
-            
+
 
 
         </div>

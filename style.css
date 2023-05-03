@@ -128,6 +128,13 @@ p{
   cursor: pointer;
 }
 
+#count{
+  color: white;
+  font-size: 200%;
+  margin: 1% 0 0% 0;
+
+}
+
 .mintbutton {
   width: 100%;
 
